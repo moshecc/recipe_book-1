@@ -30,7 +30,7 @@ export default function login() {
       <main>
         <ModeToggle />
         <Sheet
-        style={{backgroundColor: "rgba(0, 0, 0, 0.393)"}}
+        style={{backgroundColor: "rgba(0, 0, 0,0.35)"}}
           sx={{
             width: 320,
             mx: 'auto', // margin left & right
@@ -47,12 +47,12 @@ export default function login() {
         >
           <div>
             <Typography level="h4" component="h1">
-              <b>Welcome!</b>
+              <b style={{color:"black"}}>Welcome!</b>
             </Typography>
-            <Typography level="body2">Sign in to continue.</Typography>
+            <Typography level="body2" style={{color:"wheat"}}>Sign in to continue.</Typography>
           </div>
           <FormControl>
-            <FormLabel>Email</FormLabel>
+            <FormLabel style={{color:"black"}}>Email</FormLabel>
             <Input
               // html input attribute
               name="email"
@@ -61,7 +61,7 @@ export default function login() {
             />
           </FormControl>
           <FormControl>
-            <FormLabel>Password</FormLabel>
+            <FormLabel style={{color:"black"}}>Password</FormLabel>
             <Input
               // html input attribute
               name="password"
@@ -75,6 +75,7 @@ export default function login() {
             endDecorator={<Link href="/sign-up">Sign up</Link>}
             fontSize="sm"
             sx={{ alignSelf: 'center' }}
+            style={{color:"wheat"}}
           >
             Don&apos;t have an account?
           </Typography>

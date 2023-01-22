@@ -7,11 +7,11 @@ export default function HomePage() {
     <>
       <div className="bgImg">
         <img className="position-absolute" src="../../imges/logo.png" alt="" />
-        <h1 className="myFont">המתכונים שלי</h1>
-        <div className="pt-4"><Login/></div>
+        <h3 className="myFont">המתכונים שלי</h3>
+        <div className="" style={{}}><Login/></div>
         <div className=" justify-content-center d-flex">
           <span>
-            <Link className="nav-link active">about us</Link>
+            <Link className="nav-link active">About Us</Link>
           </span>
         </div>
       </div>

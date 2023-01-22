@@ -2,14 +2,15 @@
     background-image: url("../../imges/homePageImg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 100%;
+    width: 100%;
 }
 
 
 .myFont{
     text-align: center;
     font-family: homeFont;
-    font-size: 15vw;
+    font-size: 106px;
 }
 
 @font-face {
