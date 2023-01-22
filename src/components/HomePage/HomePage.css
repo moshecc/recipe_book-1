@@ -3,6 +3,9 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+<<<<<<< HEAD
+}
+=======
 
 }
 
@@ -16,3 +19,5 @@
     font-family: homeFont;
     src: url("../../fonts/AmaticaSC-Bold.ttf");
   }
+  
+>>>>>>> e3db04f7bb8f4e6a916f6adfcf987b8b18b8b199
