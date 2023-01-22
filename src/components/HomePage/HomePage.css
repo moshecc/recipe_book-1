@@ -5,3 +5,15 @@
     height: 100vh;
 
 }
+
+.myFont{
+    text-align: center;
+    font-family: homeFont;
+    font-size: 15vw;
+}
+
+@font-face {
+    font-family: homeFont;
+    src: url("../../fonts/AmaticaSC-Bold.ttf");
+  }
+  
