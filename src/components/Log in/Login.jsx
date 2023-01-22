@@ -20,11 +20,10 @@ function ModeToggle() {
   if (!mounted) {
     return null;
   }
-
   
 }
 
-export default function App() {
+export default function Login() {
   return (
     <CssVarsProvider>
       <main>
