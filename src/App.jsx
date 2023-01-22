@@ -5,7 +5,7 @@ export default function App() {
   return (
     <>
     <HomePage/>
-    <div></div>
+    <div>hayim halle</div>
     </>
   )
 }
